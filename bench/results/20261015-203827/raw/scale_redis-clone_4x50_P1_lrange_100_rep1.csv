@@ -1,0 +1,16 @@
+4 x redis-benchmark -p 65033 -c 50 -n 150000 -P 1 -r 1000000 -t lrange_100 --csv
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"LPUSH (needed to benchmark LRANGE)","52742.61","0.779","0.016","0.431","2.175","9.463","43.615"
+"LRANGE_100 (first 100 elements)","50709.94","0.720","0.040","0.615","1.535","2.479","22.703"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"LPUSH (needed to benchmark LRANGE)","51037.77","0.804","0.016","0.439","2.343","9.087","43.615"
+"LRANGE_100 (first 100 elements)","52192.07","0.701","0.032","0.607","1.503","2.383","9.855"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"LPUSH (needed to benchmark LRANGE)","51795.58","0.791","0.016","0.431","2.303","9.375","44.543"
+"LRANGE_100 (first 100 elements)","52101.43","0.703","0.032","0.607","1.503","2.415","9.839"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"LPUSH (needed to benchmark LRANGE)","51741.98","0.787","0.016","0.439","2.295","8.095","43.551"
+"LRANGE_100 (first 100 elements)","52264.81","0.702","0.024","0.607","1.527","2.375","8.335"

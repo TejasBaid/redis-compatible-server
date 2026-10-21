@@ -1,0 +1,12 @@
+4 x redis-benchmark -p 58249 -c 50 -n 1000000 -P 16 -r 1000000 -t zadd --csv
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"ZADD","52485.18","15.227","0.336","14.727","24.895","35.647","97.919"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"ZADD","52540.32","15.211","0.688","14.679","24.911","35.775","99.455"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"ZADD","52452.14","15.238","0.464","14.663","24.991","36.543","84.031"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"ZADD","52454.89","15.239","0.416","14.663","24.911","35.967","87.615"

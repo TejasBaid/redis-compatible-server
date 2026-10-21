@@ -1,0 +1,204 @@
+{
+  "cpu": "Apple M4",
+  "cores": "10",
+  "memory_bytes": "17179869184",
+  "os": "macOS-26.4.1-arm64-arm-64bit-Mach-O",
+  "redis_server": "Redis server v=8.10.2 sha=00000000:1 malloc=libc bits=64 build=764b3e45065a66fb",
+  "redis_benchmark": "redis-benchmark 8.10.2",
+  "rustc": "rustc 1.99.0 (b940084d7 2026-09-28)",
+  "redis_clone_commit": "workspace build",
+  "args": {
+    "repeats": 3,
+    "n1": 300000,
+    "n16": 2000000,
+    "procs": 4,
+    "server_threads": 4,
+    "redis_io_threads": 4,
+    "no_scaling": false,
+    "keys": 1000000,
+    "max_load": 4.0,
+    "phases": "scaling",
+    "out": "bench/results/20261015-203827",
+    "quick": false,
+    "memory_only": false,
+    "no_memory": false
+  },
+  "step_load_averages": [
+    [
+      "redis_c50_P1_rep0",
+      3.94
+    ],
+    [
+      "redis-clone_c50_P1_rep0",
+      4.02
+    ],
+    [
+      "redis_c50_P16_rep0",
+      4.06
+    ],
+    [
+      "redis-clone_c50_P16_rep0",
+      3.96
+    ],
+    [
+      "redis_c500_P1_rep0",
+      5.34
+    ],
+    [
+      "redis-clone_c500_P1_rep0",
+      5.33
+    ],
+    [
+      "redis_c500_P16_rep0",
+      5.08
+    ],
+    [
+      "redis-clone_c500_P16_rep0",
+      5.79
+    ],
+    [
+      "redis_c50_P1_rep1",
+      4.17
+    ],
+    [
+      "redis-clone_c50_P1_rep1",
+      4.12
+    ],
+    [
+      "redis_c50_P16_rep1",
+      5.86
+    ],
+    [
+      "redis-clone_c50_P16_rep1",
+      4.8
+    ],
+    [
+      "redis_c500_P1_rep1",
+      4.98
+    ],
+    [
+      "redis-clone_c500_P1_rep1",
+      4.96
+    ],
+    [
+      "redis_c500_P16_rep1",
+      4.53
+    ],
+    [
+      "redis-clone_c500_P16_rep1",
+      3.93
+    ],
+    [
+      "redis_c50_P1_rep2",
+      4.13
+    ],
+    [
+      "redis-clone_c50_P1_rep2",
+      6.52
+    ],
+    [
+      "redis_c50_P16_rep2",
+      8.87
+    ],
+    [
+      "redis-clone_c50_P16_rep2",
+      9.1
+    ],
+    [
+      "redis_c500_P1_rep2",
+      9.36
+    ],
+    [
+      "redis-clone_c500_P1_rep2",
+      7.5
+    ],
+    [
+      "redis_c500_P16_rep2",
+      5.74
+    ],
+    [
+      "redis-clone_c500_P16_rep2",
+      4.62
+    ],
+    [
+      "memory redis",
+      3.18
+    ],
+    [
+      "memory redis-clone",
+      3.33
+    ],
+    [
+      "scaling redis P1 rep0",
+      3.51
+    ],
+    [
+      "scaling redis-io4 P1 rep0",
+      4.27
+    ],
+    [
+      "scaling redis-clone P1 rep0",
+      6.16
+    ],
+    [
+      "scaling redis P16 rep0",
+      7.28
+    ],
+    [
+      "scaling redis-io4 P16 rep0",
+      5.32
+    ],
+    [
+      "scaling redis-clone P16 rep0",
+      4.92
+    ],
+    [
+      "scaling redis P1 rep1",
+      3.5
+    ],
+    [
+      "scaling redis-io4 P1 rep1",
+      4.1
+    ],
+    [
+      "scaling redis-clone P1 rep1",
+      7.43
+    ],
+    [
+      "scaling redis P16 rep1",
+      10.35
+    ],
+    [
+      "scaling redis-io4 P16 rep1",
+      7.54
+    ],
+    [
+      "scaling redis-clone P16 rep1",
+      6.94
+    ],
+    [
+      "scaling redis P1 rep2",
+      3.54
+    ],
+    [
+      "scaling redis-io4 P1 rep2",
+      5.51
+    ],
+    [
+      "scaling redis-clone P1 rep2",
+      6.73
+    ],
+    [
+      "scaling redis P16 rep2",
+      7.57
+    ],
+    [
+      "scaling redis-io4 P16 rep2",
+      5.14
+    ],
+    [
+      "scaling redis-clone P16 rep2",
+      5.62
+    ]
+  ]
+}

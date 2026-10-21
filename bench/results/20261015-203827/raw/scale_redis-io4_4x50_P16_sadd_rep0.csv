@@ -1,0 +1,12 @@
+4 x redis-benchmark -p 55991 -c 50 -n 1000000 -P 16 -r 1000000 -t sadd --csv
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SADD","719424.44","1.067","0.208","1.031","1.631","1.999","3.143"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SADD","718390.81","1.069","0.208","1.031","1.631","2.007","2.791"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SADD","720461.06","1.066","0.360","1.031","1.623","1.983","3.503"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"SADD","719942.38","1.067","0.200","1.031","1.631","2.007","3.711"

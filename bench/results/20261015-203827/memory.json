@@ -1,0 +1,24 @@
+{
+  "redis": {
+    "keys": 1000000,
+    "used_memory_delta": 62166944,
+    "rss_delta": 66748416,
+    "used_per_key": 62.166944,
+    "rss_per_key": 66.748416,
+    "used_memory_before": 930592,
+    "used_memory_after": 63097536,
+    "rss_after": 73498624,
+    "allocator": "libc"
+  },
+  "redis-clone": {
+    "keys": 1000000,
+    "used_memory_delta": 72456128,
+    "rss_delta": 85393408,
+    "used_per_key": 72.456128,
+    "rss_per_key": 85.393408,
+    "used_memory_before": 761389,
+    "used_memory_after": 73217517,
+    "rss_after": 88506368,
+    "allocator": "libc"
+  }
+}

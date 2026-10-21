@@ -1,0 +1,12 @@
+4 x redis-benchmark -p 52564 -c 50 -n 1000000 -P 16 -r 1000000 -t incr --csv
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"INCR","881057.25","0.825","0.104","0.767","1.167","1.359","8.543"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"INCR","877963.06","0.829","0.104","0.767","1.175","1.359","8.583"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"INCR","880281.69","0.826","0.136","0.767","1.175","1.359","8.847"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"INCR","878734.62","0.824","0.072","0.767","1.175","1.359","8.495"

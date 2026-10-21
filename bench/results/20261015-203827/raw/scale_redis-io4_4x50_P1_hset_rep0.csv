@@ -1,0 +1,12 @@
+4 x redis-benchmark -p 49236 -c 50 -n 150000 -P 1 -r 1000000 -t hset --csv
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"HSET","53418.80","0.809","0.064","0.791","1.183","1.367","2.639"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"HSET","53705.69","0.806","0.032","0.783","1.183","1.367","2.399"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"HSET","53380.79","0.809","0.056","0.791","1.183","1.375","4.447"
+
+"test","rps","avg_latency_ms","min_latency_ms","p50_latency_ms","p95_latency_ms","p99_latency_ms","max_latency_ms"
+"HSET","53571.43","0.808","0.048","0.783","1.183","1.367","2.471"

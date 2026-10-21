@@ -1,0 +1,32 @@
+[bench 20:38:27] load average 5.43 >= 4.5; waiting
+[bench 20:38:47] load average 4.53 >= 4.5; waiting
+[bench 20:39:07] load average 4.94 >= 4.5; waiting
+[bench 20:39:27] redis_c50_P1_rep0 (load 3.94)
+[bench 20:39:47] redis-clone_c50_P1_rep0 (load 4.02)
+[bench 20:40:02] redis_c50_P16_rep0 (load 4.06)
+[bench 20:40:30] redis-clone_c50_P16_rep0 (load 3.96)
+[bench 20:40:56] redis_c500_P1_rep0 (load 5.34)
+[bench 20:41:16] redis-clone_c500_P1_rep0 (load 5.33)
+[bench 20:41:36] redis_c500_P16_rep0 (load 5.08)
+[bench 20:42:22] redis-clone_c500_P16_rep0 (load 5.79)
+[bench 20:42:55] load average 5.79 >= 4.5; waiting
+[bench 20:43:15] load average 5.82 >= 4.5; waiting
+[bench 20:43:35] load average 5.28 >= 4.5; waiting
+[bench 20:43:55] load average 5.05 >= 4.5; waiting
+[bench 20:44:15] redis_c50_P1_rep1 (load 4.17)
+[bench 20:44:34] redis-clone_c50_P1_rep1 (load 4.12)
+[bench 20:44:51] redis_c50_P16_rep1 (load 5.86)
+[bench 20:45:20] redis-clone_c50_P16_rep1 (load 4.80)
+[bench 20:45:45] redis_c500_P1_rep1 (load 4.98)
+[bench 20:46:05] redis-clone_c500_P1_rep1 (load 4.96)
+[bench 20:46:25] redis_c500_P16_rep1 (load 4.53)
+[bench 20:46:58] redis-clone_c500_P16_rep1 (load 3.93)
+[bench 20:47:29] redis_c50_P1_rep2 (load 4.13)
+[bench 20:47:50] redis-clone_c50_P1_rep2 (load 6.52)
+[bench 20:48:10] redis_c50_P16_rep2 (load 8.87)
+[bench 20:48:39] redis-clone_c50_P16_rep2 (load 9.10)
+[bench 20:49:06] redis_c500_P1_rep2 (load 9.36)
+[bench 20:49:25] redis-clone_c500_P1_rep2 (load 7.50)
+[bench 20:49:45] redis_c500_P16_rep2 (load 5.74)
+[bench 20:50:18] redis-clone_c500_P16_rep2 (load 4.62)
+[bench 20:50:47] load average 4.85 >= 4.5; waiting

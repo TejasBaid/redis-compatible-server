@@ -1,0 +1,7 @@
+/target
+/data
+/bench/tmp
+*.aof
+*.snap
+*.rdb
+.DS_Store

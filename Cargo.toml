@@ -1,0 +1,45 @@
+[package]
+name = "redis-clone"
+version = "0.1.0"
+edition = "2024"
+description = "A multi-threaded, Redis-compatible in-memory data store: RESP2/RESP3, persistence (AOF + snapshots), replication, eviction"
+license = "MIT"
+repository = "https://github.com/TejasBaid/redis-compatible-server"
+readme = "README.md"
+keywords = ["redis", "database", "key-value", "in-memory", "resp"]
+categories = ["database-implementations", "network-programming"]
+
+[lib]
+name = "redis_clone"
+path = "src/lib.rs"
+
+[[bin]]
+name = "redis-clone"
+path = "src/main.rs"
+
+[dependencies]
+crc32fast = "1.5"
+foldhash = "0.2"
+itoa = "1.0"
+libc = "0.2"
+memchr = "2.7"
+mio = { version = "1.2", features = ["os-poll", "net"] }
+parking_lot = "0.12"
+signal-hook = "0.4"
+
+[dev-dependencies]
+proptest = "1.12"
+redis = { version = "1.7", default-features = false }
+tempfile = "3.27"
+
+[profile.release]
+debug = 1
+lto = "fat"
+codegen-units = 1
+panic = "abort"
+
+[profile.test]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2

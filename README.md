@@ -1,7 +1,5 @@
 # redis-clone
 
-[![CI](https://github.com/TejasBaid/redis-compatible-server/actions/workflows/ci.yml/badge.svg)](https://github.com/TejasBaid/redis-compatible-server/actions/workflows/ci.yml)
-
 **redis-clone** is a Redis-compatible in-memory data store written from scratch in Rust.
 It speaks RESP2 and RESP3, so the unmodified `redis-cli`, `redis-benchmark` and client
 libraries such as `redis-rs` work against it. It implements ~185 commands across strings,
